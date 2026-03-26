@@ -163,15 +163,6 @@ http://localhost:5173
 - Backend npm scripts are minimal and do not include a dedicated `start` or `dev` script.
 - There are no automated tests configured yet.
 
-## Recommended Improvements
-
-- move MongoDB URI and JWT secret to environment variables
-- use the same JWT secret for both register and login
-- add validation for request payloads
-- add better error handling
-- create backend scripts such as `npm run dev`
-- add tests for frontend and backend
-
 ## License
 
 This project is provided for educational purposes.
